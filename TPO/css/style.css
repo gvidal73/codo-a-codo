@@ -1,0 +1,173 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css);
+
+* {
+    box-sizing: border-box;
+}
+
+.cabecera {
+    display: grid;
+    grid-template-areas: "logo titulo"
+        "logo menu";
+    grid-template-columns: 10.5% auto;
+    grid-template-rows: 50% auto;
+    position: sticky;
+    top: 0;
+    background: #cdedff;
+}
+
+@media only screen and (max-width: 1200px) {
+    .cabecera {
+        grid-template-columns: 13% auto;
+        grid-template-rows: .5fr auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .cabecera {
+        grid-template-columns: 15% auto;
+        grid-template-rows: .5fr auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cabecera {
+        grid-template-columns: 17% auto;
+        grid-template-rows: .5fr auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .cabecera {
+        grid-template-columns: 21% auto;
+        grid-template-rows: .4fr auto;
+    }
+}
+
+.logo {
+    grid-area: logo;
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.titulo {
+    grid-area: titulo;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.titulo h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 5vw;
+    font-size-adjust: ex-height 0.5;
+}
+
+.navbar {
+    font-weight: 700;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.5em;
+}
+
+body>footer {
+    background: #cdedff;
+    padding: 15px;
+    text-align: center;
+}
+
+footer p {
+    font-weight: 700;
+}
+
+p::selection {
+    background: yellow;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background: lightyellow;
+    justify-content: start;
+    /* padding: .5rem; */
+}
+
+.seccion {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 50% 50%;
+    justify-content: start;
+    align-content: stretch;
+}
+
+.seccion_clasifica {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+}
+
+article {
+    /* border: 2px red solid; */
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+article p, ul, li {
+    text-align: justify;
+    list-style: none;
+    padding-left: .5rem;
+
+}
+
+.pie_img {
+    font-size: .8em;
+    font-style: italic;
+    text-align: center;
+}
+
+.alimentacion {
+    text-align: left;
+    padding-left: 5rem;
+}
+
+.accordion {
+    text-align: justify;
+}
+
+.lateral {
+    background: #e0f5ff;
+    padding: 0.5rem;
+}
+
+strong {
+    color: darkblue;
+    font-size: 1.05em;
+}
+
+@media only screen and (max-width: 900px) {
+    .principal {
+        grid-template-columns: 60% 40%;
+    }
+
+    .seccion {
+        grid-template-columns: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .principal {
+        grid-template-columns: 100%;
+    }
+}
+
+.lateral iframe {
+    min-height: 270px;
+}
+

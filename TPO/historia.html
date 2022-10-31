@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La DinoPedia de Maxi</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5.2.2 CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Bootstrap 5.2.2 JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header class="cabecera">
+
+        <div class="logo"><a href="index.html"><img src="img/logo_dino.webp" alt="Logo Dino" width="100%"></a></div>
+
+        <div class="titulo">
+            <h1>La DinoPedia de Maxi</h1>
+        </div>
+
+        <div class="menu">
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Principal</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="clasifica.html" style="color: black;">Clasificación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="principal">
+
+        <section class="seccion">
+
+            <article>
+
+                <h2>Historia de los Dinosaurios</h2>
+                <p>
+                    Su historia comenzó hace unos 230 millones de años, a mediados del período Triásico. Dinosaurio es
+                    una palabra de origen latino, que significa "Lagarto Terrible".
+                    Los dinosaurios son el resultado de un proceso de especialización del aparato locomotor, que los
+                    llevó de tener las extremidades extendidas hacia los lados (como los reptiles) a tenerlas por debajo
+                    del cuerpo. Esta proceso de especialización se inició con los tecodontes (reptiles antiguos).
+                </p>
+                <p>
+                    Dentro de las muchas subdivisiones por grupos que se pueden hacer de los dinosaurios, existen dos
+                    muy importantes a saber:
+                </p>
+                <p>
+                    <strong>Dependiendo de la época</strong> que sean.
+                </p>
+                <ul>
+
+                    <li><b>De 245 a 208 millones de años</b> son del Triásico.</li>
+                    <li><b>De 208 a 144 millones de años</b> son del Jurásico.</li>
+                    <li><b>De 144 a 64 millones de años</b> son del Cretácico.</li>
+                </ul>
+                </p>
+                <p>
+                    Además, existe otra <strong>dependiendo de su cadera</strong>. Así econtramos a los ornitisquios,
+                    cuya característica
+                    es que tienen el pubis hacia atrás y abajo, y los saurisquios, que tienen el pubis hacia adelante y
+                    abajo.
+                </p>
+            </article>
+
+            <article>
+
+
+                
+                <p>
+                    Para finalizar, es importante mencionar que los dinosaurios se extinguieron hace aproximadamente 66
+                    millones de años, y su extinción siempre ha sido un tema muy candente dentro de la paleontología y
+                    la ciencia.
+                    <br>
+                    A pesar de que se han propuesto muchas y muy diversas teorías para explicarla, su desaparición sigue
+                    siendo una incógnita ya que ninguna de ellas ha sido completamente contrastada, y
+                    por tanto, aceptada.
+
+                </p>
+                <img src="img/dino_extincion.jpg" alt="Espinosaurio" width="100%">
+                <p class="pie_img">Una de las teorías más aceptadas en el mundo científico es que la extinción se
+                    produjo por la caída de un gran meteorito sobre la tierra.
+                </p>
+
+            </article>
+
+        </section>
+
+        <aside class="lateral">
+
+            <h2>Cómo está el clima?</h2>
+            <picture>
+                <source srcset="img/clima1.jpg" media="(min-width: 900px)">
+                <source srcset="img/clima2.jpg" media="(min-width: 576px)">
+                <source srcset="img/clima3.jpg">
+                <img src="img/clima1.jpg" alt="Clima" width="100%">
+            </picture>
+
+            <div>
+                <iframe src="./clima.html" frameborder="1" width="100%"></iframe>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>
+            Este sitio fue realizado como TPO del curso<br>
+            Web Full Stack Python de Codo-a-Codo.<br>
+            Basado en la idea de mi nieto Maxi de 8 años.
+        </p>
+    </footer>
+
+</body>
+
+</html>

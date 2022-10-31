@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La DinoPedia de Maxi</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5.2.2 CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Bootstrap 5.2.2 JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="cabecera">
+
+        <div class="logo"><a href="index.html"><img src="img/logo_dino.webp" alt="Logo Dino" width="100%"></a></div>
+
+        <div class="titulo">
+            <h1>La DinoPedia de Maxi</h1>
+        </div>
+
+        <div class="menu">
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Principal</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="clasifica.html" style="color: black;">Clasificación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="principal">
+
+        <section class="seccion_clasifica">
+
+            <article>
+                <h2>Clasificación de los Dinosaurios</h2>
+                <p>
+                    Existen distintos enfoques a la hora de clasificar a los dinosaurios.
+                    <br>
+                    Uno de los más habituales y sencillos de entender para empezar a diferenciarlos, es hacerlo según su
+                    forma de alimentación.
+                </p>
+                <p>
+                    En ese sentido existen tres tipos principales:
+                </p>
+
+            </article>
+
+            <article class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Dinosaurios Carnívoros
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Los <strong>dinosaurios carnívoros</strong> comían carne. Necesitaban cazar presas para
+                            sobrevivir. Algunos eran verdaderamente temibles por su fuerza y estatura, pero había otros
+                            que eran tanto depredadores como presas por su diminuto tamaño.
+                            <br>
+                            Veamos algunos ejemplos:<br>
+                            <strong>Tiranosaurio Rex:</strong> Es el más conocido de todos y el más temido por los
+                            humanos por las películas realizadas, pero en realidad no fue el depredador más grande y
+                            peligroso de la historia.
+                            Era un carnívoro bípedo con una larga cola, medía 4 metros de altura y hasta 12,3 metros de
+                            largo . Existe un dilema con este reptil gigante porque no se sabe si era exclusivamente
+                            carnívoro o también carroñero.<br>
+                            <strong>Velociraptor:</strong> Es un dinosaurio carnívoro bípedo, aunque en sus inicios se
+                            le asocia con alas. Es decir, pertenecía a la rama aviar, pero su evolución le transformó
+                            drásticamente.
+                            No tenía un gran tamaño; medía 1,8 metros de largo y 0,5 metros de alto , y pese a su
+                            diminuto tamaño eran feroces, cazaban con otros ejemplares Velociraptor y tenían una de las
+                            mandíbulas más potentes de su época.<br>
+                            <strong>Espinosaurio: </strong> Se lo considera el depredador más grande y feroz de toda la
+                            historia, incluso más que el Tiranosaurio.
+                            Era un dinosaurio bípedo y se estima que medía hasta 20 metros de longitud y podía llegar a
+                            pesar hasta 21 toneladas.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Dinosaurios Herbívoros
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Los <strong>dinosaurios herbívoros</strong> comían hierbas y plantas. Algunos ejemplares
+                            eran enormes, otros eran muy diminutos. Generalmente eran pacíficos, aunque algunos
+                            ejemplares eran agresivos.<br>
+                            A continuación veremos algunos ejemplares para familiarizarnos
+                            un poco más con ellos.<br>
+                            <strong>Brachiosaurio:</strong> Fue uno de los dinosaurios herbívoros más grandes de toda la
+                            historia, pero pese a su gran tamaño tenía un carácter dócil y amigable. Principalmente
+                            comía plantas de zonas muy altas.
+                            Medía 13 metros de alto, 25 metros de largo y hasta 80 toneladas de peso.<br>
+                            <strong>Triceratops:</strong> Es uno de los dinosaurios herbívoros más conocidos por el
+                            hombre. Tenía un carácter territorial y muy agresivo, y con sus tres cuernos era capaz de
+                            matar a casi cualquier rival.
+                            Media 10 metros de largo, 4 metros de altura y podía pesar hasta 12 toneladas.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Dinosaurios Omnívoros
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Los <strong>dinosaurios omnívoros</strong> comían tanto plantas como carne. Son de los
+                            reptiles de sangre caliente menos conocidos por la ciencia, ya que se han encontrado pocos
+                            ejemplos fósiles. No obstante, vamos a detallar algunos ejemplares.<br>
+                            <strong>Gallimimus: </strong> Es lo más parecido a las gallinas de la actualidad, aunque su
+                            estatura era mucho mayor que los humanos actuales.
+                            Podía alcanzar gran velocidad, y esto le servía tanto para cazar presas inferiores a su
+                            tamaño como para escapar de depredadores mayores que él.<br>
+                            <strong>Troodon:</strong> Es uno de los dinosaurios más desconocidos por la ciencia, aunque
+                            han podido estimar que su altura no era excesivamente alta a comparación de otros
+                            dinosaurios omnívoros.
+                            No superaba los 2 metros de altura y tenía un peso aproximado de 45 kg. Era una presa fácil
+                            para los depredadores, por lo que acostumbraba a esconderse entre los follajes.<br>
+                            <strong>Avimimus: </strong> Era uno de los dinosaurios omnívoros más pequeños de toda la historia. Apenas alcanzaba los 45 centímetros de altura y 1,5 metros de largo.
+                            Era muy vulnerable a ser cazado, y por ende estaba prácticamente todo el día escondido para no ser descubierto.
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+        </section>
+
+        <aside class="lateral">
+
+            <h2>Cómo está el clima?</h2>
+            <picture>
+                <source srcset="img/clima1.jpg" media="(min-width: 900px)">
+                <source srcset="img/clima2.jpg" media="(min-width: 576px)">
+                <source srcset="img/clima3.jpg">
+                <img src="img/clima1.jpg" alt="Clima" width="100%">
+            </picture>
+
+            <div>
+                <iframe src="./clima.html" frameborder="1" width="100%"></iframe>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>
+            Este sitio fue realizado como TPO del curso<br>
+            Web Full Stack Python de Codo-a-Codo.<br>
+            Basado en la idea de mi nieto Maxi de 8 años.
+        </p>
+    </footer>
+
+</body>
+
+</html>

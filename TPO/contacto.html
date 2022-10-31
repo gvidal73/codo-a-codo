@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La DinoPedia de Maxi</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5.2.2 CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Bootstrap 5.2.2 JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="cabecera">
+
+        <div class="logo"><a href="index.html"><img src="img/logo_dino.webp" alt="Logo Dino" width="100%"></a></div>
+
+        <div class="titulo">
+            <h1>La DinoPedia de Maxi</h1>
+        </div>
+
+        <div class="menu">
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Principal</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="clasifica.html" style="color: black;">Clasificación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="principal">
+
+        <section class="seccion">
+
+            <article>
+                <img src="img/dino_main.jpg" alt="Espinosaurio" width="100%">
+                <p class="pie_img">Imagen de un Spinosaurio buscando comida. Se cree que estos carnívoros eran grandes
+                    nadadores.</p>
+            </article>
+
+            <article>
+                <h2>Introducción</h2>
+                <p>
+                    A lo largo de la historia han existido muchos tipos de dinosaurios, pero la mayoría de las personas,
+                    que no están especializadas en este campo, piensan en los mismos de siempre: en aquellas criaturas
+                    que han salido en películas o dibujos animados.<br>
+                    Pero la realidad es otra: hay tanta variedad de reptiles gigantes que sería difícil explicar al
+                    detalle todas las especies. De hecho, incluso, en los tiempos que corren, aún no se puede confirmar
+                    que se conozcan todas.
+                </p>
+                <p>
+                    Este sitio sencillo pretende hacer solo una introducción para, tal vez, despertar el interés en
+                    estas criaturas maravillosas que ya no están entre nosotros.
+                </p>
+                <p>
+                    Gracias al trabajo laborioso de los paleontólogos que investigan estas criaturas prehistóricas se
+                    puede conocer relativamente la historia de nuestro planeta, y en parte también de la propia
+                    humanidad.
+                </p>
+                <p>
+                    Es erróneo pensar que los dinosaurios no tienen nada que ver con el hombre, ya que los propios
+                    paleontólogos y científicos especializados en el ramo aseguran que los dinosaurios son el inicio de
+                    la "era moderna" de las especies actuales , tanto mamíferos, ovíparos y reptiles.
+                </p>
+            </article>
+
+        </section>
+
+        <aside class="lateral">
+
+            <h2>Cómo está el clima?</h2>
+            <picture>
+                <source srcset="img/clima1.jpg" media="(min-width: 900px)">
+                <source srcset="img/clima2.jpg" media="(min-width: 576px)">
+                <source srcset="img/clima3.jpg">
+                <img src="img/clima1.jpg" alt="Clima" width="100%">
+            </picture>
+
+            <div>
+                <iframe src="./clima.html" frameborder="1" width="100%"></iframe>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>
+            Este sitio fue realizado como TPO del curso<br>
+            Web Full Stack Python de Codo-a-Codo.<br>
+            Basado en la idea de mi nieto Maxi de 8 años.
+        </p>
+    </footer>
+
+</body>
+
+</html>

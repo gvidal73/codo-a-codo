@@ -9,7 +9,6 @@
     grid-template-areas: "logo titulo"
         "logo menu";
     grid-template-columns: 10.5% auto;
-    grid-template-rows: 50% auto;
     position: sticky;
     top: 0;
     background: #cdedff;

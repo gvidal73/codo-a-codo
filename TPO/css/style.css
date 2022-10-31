@@ -13,6 +13,7 @@
     position: sticky;
     top: 0;
     background: #cdedff;
+    z-index: 10;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -96,7 +97,6 @@ p::selection {
     grid-template-columns: 75% 25%;
     background: lightyellow;
     justify-content: start;
-    /* padding: .5rem; */
 }
 
 .seccion {
@@ -112,14 +112,19 @@ p::selection {
     grid-template-rows: auto auto;
 }
 
+.seccion_contacto {
+    grid-template-columns: 100%;
+}
+
 article {
-    /* border: 2px red solid; */
     padding: 1.5rem;
     text-align: center;
     width: 100%;
 }
 
-article p, ul, li {
+article p,
+ul,
+li {
     text-align: justify;
     list-style: none;
     padding-left: .5rem;
@@ -171,3 +176,75 @@ strong {
     min-height: 270px;
 }
 
+/* ---------------------- */
+/* Formulario de contacto */
+/* ---------------------- */
+
+.contacto {
+    padding: 15px;
+    display: flex;
+}
+
+article>h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1>small {
+    font-size: .6em;
+    display: block;
+    text-transform: none;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.input-block {
+    background-color: rgba(rgb(255, 255, 255), .8);
+    height: auto;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    padding: 20px;
+    font-size: 3em;
+    height: 30px;
+}
+
+form label {
+    display: block;
+    margin: 0;
+    font-weight: 300;
+    z-index: 3;
+    font-size: 1em;
+    line-height: 30px;
+}
+
+input[type="text"], input[type="email"], textarea[type="text"] {
+    font-size:1em;
+}
+
+.form-control {
+    background-color: transparent;
+    padding: 0;
+    height: auto;
+    position: relative;
+}
+
+.button {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 60px;
+    height: 80px;
+    border: none;
+    width: 100%;
+}

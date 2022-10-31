@@ -6,6 +6,8 @@
 ### Características
 - La idea del proyecto fue aportada por mi nieto Maximo de 8 años, que es fanático de los dinosaurios.
 - El sitio fue programado en VSCode, utilizando HTML, CSS y JavaScript.
+- El desarrollo fue commiteado en Github (https://github.com/gvidal73/codo-a-codo).
+- Además fue subido a Github Pages para poder navegarlo y verificar su funcionalidad (https://gvidal73.github.io/codo-a-codo/TPO/).
 - Posee una estructura maquetada principalmente con Grid (y Flexbox en algunas secciones), y estructurada con etiquetas semánticas.
 - Consta de 4 páginas HTML (Principal, Historia, Características y Contacto).
 - El sitio es totalmente responsive, con diferentes puntos de corte para adaptarlo a distintos tamaños y/o formatos de pantalla.

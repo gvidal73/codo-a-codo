@@ -14,5 +14,5 @@
 - Se utilizaron Google fonts en todo el sitio ("Pacifico" en el título y "Mulish" en el resto).
 - La barra de navegación, el acordión de la página de características y el formulario de contacto se confeccionaron eon Bootstrap 5.2.2, referido mediante CDN a fin de acelerar la carga.
 - El formulario de contacto, ademas, tiene validaciones mediante JavaScript.
-- Se incluyó un widget de clima que consume una API Rest mediante JavaScript (http://api.weatherapi.com/v1/current.json).
+- Se incluyó un widget de clima que consume una API Rest mediante JavaScript (https://api.openweathermap.org/data/2.5/weather).
 - El widget corre en un html dedicado, y está incorporado al sitio mediante un iframe.
